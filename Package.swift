@@ -6,12 +6,12 @@ import PackageDescription
 let package = Package(
     name: "RCKML",
     platforms: [
-        .iOS(.v15),
+        .iOS(.v17),
         .macOS(.v12),
-        .watchOS(.v8),
-        .tvOS(.v15),
+        .watchOS(.v10),
+        .tvOS(.v17),
         .visionOS(.v1),
-        .macCatalyst(.v15)
+        .macCatalyst(.v17)
     ],
     products: [
         .library(
